@@ -1,6 +1,6 @@
 n=int(input("enter the numeber :"))
-for i in range(1,n+1):
+for i in range(1,n+2):
       if (i<=((n+1)//2)):
             print("* "*i)
       else:
-            print("* "*(n-i+1))      
+            print("* "*(n-i+2))      

@@ -4,6 +4,7 @@ while True:
     for i in range(2,(n//2)+1):
         if(n%i==0):
             is_prime+=1
+            break
     if(is_prime==0):
         print(n,"prime number")
     else:
