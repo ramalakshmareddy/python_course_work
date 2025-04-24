@@ -28,10 +28,13 @@ if users[user]["password"]==password:
     if(users[user]["prime mumber"]=="True"):
         for i, (key, value) in enumerate(prime_restaurant.items(), start=1):
             print(f'{i}. {key} - ₹{value}')
+
+    print(prime_restaurant['PistaHouse']["Haleem"])
+
             
-        print("Your Shopping Cart: ")
+""" print("Your Shopping Cart: ")
 
 
     elif(users[user]["prime mumber"]=="Flase"):
         for i,(key,value) in enumerate(normal_restaurant.items(),start=1):
-            print(f"{i}.{key}-₹{value}")        
+            print(f"{i}.{key}-₹{value}")   """    
