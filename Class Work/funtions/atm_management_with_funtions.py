@@ -24,6 +24,7 @@ while True:
       amount=int(input("enter the withdraw amount :"))
       withdraw(amount)
    elif(option==2):
+        amount=int(input("enter the depoist amount :"))
         depoist(amount)
    elif(option==3):
         Check_Balance()
